@@ -1,0 +1,19 @@
+div{
+    margin: 100px;
+}
+
+.warna {
+    color: red;
+}
+
+.ukuran {
+    font-size: 60px;
+}
+
+#jenis {
+    font-family: monospace;
+}
+
+.model {
+    font-weight: bold;
+}
