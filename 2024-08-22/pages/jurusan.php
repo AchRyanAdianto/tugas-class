@@ -1,0 +1,7 @@
+jurusan SMKN 2 BUDURAN:
+RPL
+DKV
+MP
+BD
+AK
+LPB
