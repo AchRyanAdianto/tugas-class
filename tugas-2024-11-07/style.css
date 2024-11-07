@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+.container {
+    margin: auto;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+.nav ul {
+    margin-top: 35px;
+    margin-left: 500px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav ul a{
+    color: aliceblue;
+}
+
+.nav ul a:hover{
+    color: aqua;
+}
+
+.header {
+    padding: 7px;
+    display: flex;
+    background-color: rgb(37, 160, 37);
+}
+
+.sekolah {
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: aliceblue;
+}
+
+.sambutan {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.sambutan h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.sambutan h3 {
+    font-size: 23px;
+    text-transform: uppercase;
+    padding: 25px 0 0;
+}
+
+.sambutan p {
+    margin: 30px;
+    padding: 5px 0;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sambutan img {
+    width: 200px;
+    align-items: center;
+}
+
+.galeri {
+    background-color: blue;
+}
+
+.sejarah {
+    background-color: rebeccapurple;
+}
+
+.kegiatan {
+    background-color: red;
+}
+
+.jadwal {
+    background-color: gold;
+}
+
+/* kontak */
+.wrapper {
+    margin: 180px auto 50px auto;
+    background: #f2efef;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 70px;
+}
+
+.wrapper h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 60px;
+}
+
+.wrapper p {
+    padding: 15px 0;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.wrapper input {
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.wrapper textarea {
+    height: 80px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.wrapper input,
+.wrapper textarea {
+    width: 50%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+}
+
+.wrapper input[type="submit"]{
+    border-bottom: none;
+    cursor: pointer;
+    background: #0092e6;
+    color: #fff;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #6ac24a;
+    background-size: auto;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #000;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    background: #6ac24a;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #0069d9;
+}
