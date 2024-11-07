@@ -1,0 +1,46 @@
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.logo img {
+    width: 110px;
+    height: 100px;
+}
+.nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.header {
+    display: flex;
+}
+
+.sekolah {
+    margin-left: 20px;
+}
+
+.home {
+    background-color: aqua;
+}
+
+.galeri {
+    background-color: blue;
+}
+
+.sejarah {
+    background-color: rebeccapurple;
+}
+
+.kegiatan {
+    background-color: red;
+}
+
+.jadwal {
+    background-color: gold;
+}
+
+.kontak {
+    background-color: lawngreen;
+}
